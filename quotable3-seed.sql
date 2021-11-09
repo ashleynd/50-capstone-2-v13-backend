@@ -84,7 +84,36 @@ DELETE FROM authors WHERE handle LIKE '%nikola-tesla%';
 DELETE FROM authors WHERE handle LIKE '%benjamin-franklin%';
 DELETE FROM authors WHERE handle LIKE '%john-d-rockefeller%';
 DELETE FROM authors WHERE handle LIKE '%jeff-bezos%';
-
+DELETE FROM authors WHERE handle LIKE '%vince-lombardi%';
+DELETE FROM authors WHERE handle LIKE '%bob-dylan%';
+DELETE FROM authors WHERE handle LIKE '%huang-po%';
+DELETE FROM authors WHERE handle LIKE '%earl-nightingale%';
+DELETE FROM authors WHERE handle LIKE '%orison-swett-marden%';
+DELETE FROM authors WHERE handle LIKE '%judy-garland%';
+DELETE FROM authors WHERE handle LIKE '%joan-rivers%';
+DELETE FROM authors WHERE handle LIKE '%colin-powell%';
+DELETE FROM authors WHERE handle LIKE '%rumi%';
+DELETE FROM authors WHERE handle LIKE '%og-mandino%';
+DELETE FROM authors WHERE handle LIKE '%william-faulkner%';
+DELETE FROM authors WHERE handle LIKE '%hillary-clinton%';
+DELETE FROM authors WHERE handle LIKE '%chinese-proverb%';
+DELETE FROM authors WHERE handle LIKE '%gandhi%';
+DELETE FROM authors WHERE handle LIKE '%osho%';
+DELETE FROM authors WHERE handle LIKE '%alexander-pope%';
+DELETE FROM authors WHERE handle LIKE '%zen-proverb%';
+DELETE FROM authors WHERE handle LIKE '%vidal-sassoon%';
+DELETE FROM authors WHERE handle LIKE '%tony-robbins%';
+DELETE FROM authors WHERE handle LIKE '%sonia-ricotti%';
+DELETE FROM authors WHERE handle LIKE '%june-carter-cash%';
+DELETE FROM authors WHERE handle LIKE '%stephen-hawking%';
+DELETE FROM authors WHERE handle LIKE '%james-cameron%';
+DELETE FROM authors WHERE handle LIKE '%george-eliot%';
+DELETE FROM authors WHERE handle LIKE '%christopher-reeve%';
+DELETE FROM authors WHERE handle LIKE '%billie-jean-king%';
+DELETE FROM authors WHERE handle LIKE '%alan-watts%';
+DELETE FROM authors WHERE handle LIKE '%babe-ruth%';
+DELETE FROM authors WHERE handle LIKE '%herodotus%';
+DELETE FROM authors WHERE handle LIKE '%leo-tolstoy%';
 DELETE FROM authors WHERE handle LIKE '%martina-navratilova%';
 
 INSERT INTO authors (handle,
@@ -162,8 +191,39 @@ VALUES  ('franklin-d-roosevelt', 'Franklin D. Roosevelt', 1, '32nd U.S. Presiden
         ('benjamin-franklin', 'Benjamin Franklin', 68, 'Founding Father of the United States of America.', NULL),
         ('john-d-rockefeller', 'John D. Rockefeller', 69, 'John Davison Rockefeller Sr. was an American business magnate and philanthropist.', NULL),
         ('jeff-bezos', 'Jeff Bezos', 70, 'Jeffrey Preston Bezos is an American entrepreneur, media proprietor, investor, and computer engineer.', NULL),
+        ('vince-lombardi', 'Vince Lombardi', 71, 'Vincent Thomas Lombardi was an American football coach, and executive in the National Football League.', NULL),
+        ('bob-dylan', 'Bob Dylan', 72, 'Bob Dylan is an American singer-songwriter.', NULL),
+        ('huang-po', 'Huang Po', 73, 'Huángbò Xīyùn was an influential master of Zen Buddhism during the Tang Dynasty.', NULL),
+        ('earl-nightingale', 'Earl Nightingale', 74, 'Earl Nightingale was an American radio speaker and author, dealing mostly with the subjects of human character development, motivation, and meaningful existence.', NULL),
+        ('orison-swett-marden', 'Orison Swett Marden', 75, 'Dr. Orison Swett Marden was an American inspirational author who wrote about achieving success in life and founded SUCCESS magazine in 1897.', NULL),
+        ('judy-garland', 'Judy Garland', 76, 'Frances Ethel Gumm, best known and addressed by her stage name Judy Garland, was an American actress, singer, dancer, vaudevillian, television presenter and radio presenter.', NULL),
+        ('joan-rivers', 'Joan Rivers', 77, 'Joan Alexandra Molinsky, known professionally as Joan Rivers, was an American comedian, actress, writer, producer, and television host.', NULL),
+        ('colin-powell', 'Colin Powell', 78, 'Colin Luther Powell was an American politician, statesman, diplomat, and United States Army officer who served as the 65th United States secretary of state from 2001 to 2005.', NULL),
+        ('rumi', 'Rumi', 79, 'Jalāl ad-Dīn Mohammad Rūmī, more popularly known simply as Rumi, was a 13th-century Persian poet.', NULL),
+        ('og-mandino', 'Og Mandino', 80, 'Augustine "Og" Mandino II was an American author. He wrote the bestselling book The Greatest Salesman in the World.', NULL),
+        ('william-faulkner', 'William Faulkner', 81, 'William Cuthbert Faulkner was an American writer known for his novels and short stories set in the fictional Yoknapatawpha County.', NULL),
+        ('hillary-clinton', 'Hillary Clinton', 82, 'Hillary Diane Rodham Clinton is an American politician, diplomat, lawyer, writer, and public speaker who served as the 67th United States secretary of state from 2009 to 2013.', NULL),
+        ('chinese-proverb', 'Chinese Proverb', 83, 'Chinese proverbs (諺語, yànyŭ) are popular sayings taken from literature, history, and famous people such as philosophers.', NULL),
+        ('gandhi', 'Mahatma Gandhi', 84, 'Mohandas Karamchand Gandhi was an Indian lawyer, anti-colonial nationalist and political ethicist who employed nonviolent resistance to lead the successful campaign for India''s independence from British rule and in turn to inspire movements for civil rights and freedom across the world.', NULL),
+        ('osho', 'Osho', 85, 'Rajneesh, also known as Acharya Rajneesh, Bhagwan Shree Rajneesh, and later as Osho, was an Indian godman, mystic, cult leader, and founder of the Rajneesh movement.', NULL),
+        ('alexander-pope', 'Alexander Pope', 86, 'Alexander Pope was an English poet and satirist of the Augustan period and one of its greatest artistic exponents.', NULL),
+        ('zen-proverb', 'Zen Proverb', 87, 'Zen is a type of Buddhism that focuses on awareness through the practice of meditation.', NULL),
+        ('vidal-sassoon', 'Vidal Sassoon', 88, 'Vidal Sassoon CBE was a British hairstylist, businessman, and philanthropist.', NULL),
+        ('tony-robbins', 'Tony Robbins', 89, 'Anthony Jay Robbins is an American author, coach, speaker, and philanthropist.', NULL),
+        ('sonia-ricotti', 'Sonia Ricotti', 90, 'Sonia Ricotti is the CEO of Lead Out Loud Inc. which is a leading-edge transformational company helping people around the globe achieve boundless success in all areas of their lives.', NULL),
+        ('june-carter-cash', 'June Carter Cash', 91, 'June Carter Cash was a five-time Grammy award-winning American singer, songwriter, actress, dancer, comedian, and author who was a member of the Carter Family and the second wife of singer Johnny Cash.', NULL),
+        ('stephen-hawking', 'Stephen Hawking', 92, 'Stephen William Hawking CH CBE FRS FRSA was an English theoretical physicist, cosmologist, and author who was director of research at the Centre for Theoretical Cosmology at the University of Cambridge at the time of his death.', NULL),
+        ('james-cameron', 'James Cameron', 93, 'James Francis Cameron CC is a Canadian filmmaker. Best known for making science fiction and epic films, he first gained recognition for directing The Terminator.', NULL),
+        ('george-eliot', 'George Eliot', 94, 'Mary Ann Evans, known by her pen name George Eliot, was an English novelist, poet, journalist, translator and one of the leading writers of the Victorian era.', NULL),
+        ('christopher-reeve', 'Christopher Reeve', 95, 'Christopher D''Olier Reeve was an American actor, director, and activist, best known for playing the titular main character in the film Superman and its three sequels.', NULL),
+        ('billie-jean-king', 'Billie Jean King', 96, 'Billie Jean King is an American former world No. 1 tennis player. King won 39 Grand Slam titles: 12 in singles, 16 in women''s doubles, and 11 in mixed doubles.', NULL),
+        ('alan-watts', 'Alan Watts', 97, 'Alan Wilson Watts was an English philosopher, writer and speaker known for interpreting and popularising Buddhism, Taoism, and Hinduism for a Western audience.', NULL),
+        ('babe-ruth', 'Babe Ruth', 98, 'George Herman "Babe" Ruth was an American professional baseball player whose career in Major League Baseball spanned 22 seasons, from 1914 through 1935.', NULL),
+        ('herodotus', 'Herodotus', 99, 'Herodotus was an ancient Greek writer, geographer, and historian born in the Greek city of Halicarnassus, part of the Persian Empire.', NULL),
+        ('leo-tolstoy', 'Leo Tolstoy', 100, 'Count Lev Nikolayevich Tolstoy, usually referred to in English as Leo Tolstoy, was a Russian writer who is regarded as one of the greatest authors of all time.', NULL),
 
-        ('martina-navratilova', 'Martina Navratilova', 71, 'Martina Navratilova is a Czech-American former professional tennis player and coach. Widely considered among the greatest female tennis players of all time.', NULL);
+        
+        ('martina-navratilova', 'Martina Navratilova', 101, 'Martina Navratilova is a Czech-American former professional tennis player and coach. Widely considered among the greatest female tennis players of all time.', NULL);
         
 DELETE FROM quotes WHERE author_handle LIKE '%franklin-d-roosevelt%';
 DELETE FROM quotes WHERE author_handle LIKE '%anne-frank%';
@@ -235,13 +295,150 @@ DELETE FROM quotes WHERE author_handle LIKE '%nikola-tesla%';
 DELETE FROM quotes WHERE author_handle LIKE '%benjamin-franklin%';
 DELETE FROM quotes WHERE author_handle LIKE '%john-d-rockefeller%';
 DELETE FROM quotes WHERE author_handle LIKE '%jeff-bezos%';
-
+DELETE FROM quotes WHERE author_handle LIKE '%vince-lombardi%';
+DELETE FROM quotes WHERE author_handle LIKE '%bob-dylan%';
+DELETE FROM quotes WHERE author_handle LIKE '%huang-po%';
+DELETE FROM quotes WHERE author_handle LIKE '%earl-nightingale%';
+DELETE FROM quotes WHERE author_handle LIKE '%orison-swett-marden%';
+DELETE FROM quotes WHERE author_handle LIKE '%judy-garland%';
+DELETE FROM quotes WHERE author_handle LIKE '%joan-rivers%';
+DELETE FROM quotes WHERE author_handle LIKE '%colin-powell%';
+DELETE FROM quotes WHERE author_handle LIKE '%rumi%';
+DELETE FROM quotes WHERE author_handle LIKE '%og-mandino%';
+DELETE FROM quotes WHERE author_handle LIKE '%william-faulkner%';
+DELETE FROM quotes WHERE author_handle LIKE '%hillary-clinton%';
+DELETE FROM quotes WHERE author_handle LIKE '%chinese-proverb%';
+DELETE FROM quotes WHERE author_handle LIKE '%gandhi%';
+DELETE FROM quotes WHERE author_handle LIKE '%osho%';
+DELETE FROM quotes WHERE author_handle LIKE '%alexander-pope%';
+DELETE FROM quotes WHERE author_handle LIKE '%zen-proverb%';
+DELETE FROM quotes WHERE author_handle LIKE '%vidal-sassoon%';
+DELETE FROM quotes WHERE author_handle LIKE '%tony-robbins%';
+DELETE FROM quotes WHERE author_handle LIKE '%sonia-ricotti%';
+DELETE FROM quotes WHERE author_handle LIKE '%june-carter-cash%';
+DELETE FROM quotes WHERE author_handle LIKE '%stephen-hawking%';
+DELETE FROM quotes WHERE author_handle LIKE '%james-cameron%';
+DELETE FROM quotes WHERE author_handle LIKE '%george-eliot%';
+DELETE FROM quotes WHERE author_handle LIKE '%christopher-reeve%';
+DELETE FROM quotes WHERE author_handle LIKE '%billie-jean-king%';
+DELETE FROM quotes WHERE author_handle LIKE '%alan-watts%';
+DELETE FROM quotes WHERE author_handle LIKE '%babe-ruth%';
+DELETE FROM quotes WHERE author_handle LIKE '%herodotus%';
+DELETE FROM quotes WHERE author_handle LIKE '%leo-tolstoy%';
 DELETE FROM quotes WHERE author_handle LIKE '%martina-navratilova%';
 
 
 INSERT INTO quotes (title, salary, equity, author_handle)
-VALUES ('My apple trees will never get across And eat the cones under his pines, I tell him. He only says, “Good fences make good neighbors.”', 157000, 0, 'robert-frost'),
+VALUES ('My apple trees will never get across And eat the cones under his pines, I tell him. He only says, “Good fences make good neighbors.”', 0, 0, 'robert-frost'),
+       ('What do we live for, if it is not to make life less difficult for each other?', 0, 0, 'george-eliot'),
+       ('Everyone thinks of changing the world, but no one thinks of changing himself.', 0, 0, 'leo-tolstoy'),
+       ('Muddy water is best cleared by leaving it alone.', 0, 0, 'alan-watts'),
+       ('Circumstances rule men; men do not rule circumstances.', 0, 0, 'herodotus'),
+       ('The destiny of man is in his own soul.', 0, 0, 'herodotus'),
+       ('Every strike brings me closer to the next home run.', 0, 0, 'babe-ruth'),
+       ('You just can''t beat the person who never gives up.', 0, 0, 'babe-ruth'),
+       ('Never let the fear of striking out keep you from playing the game.', 0, 0, 'babe-ruth'),
+       ('Trying to define yourself is like trying to bite your own teeth.', 0, 0, 'alan-watts'),
+       ('The meaning of life is just to be alive. It is so plain and so obvious and so simple.', 0, 0, 'alan-watts'),
+       ('Just as true humor is laughter at oneself, true humanity is knowledge of oneself.', 0, 0, 'alan-watts'),
+       ('There will always be suffering. But we must not suffer over the suffering.', 0, 0, 'alan-watts'),
+       ('The only way to make sense out of change is to plunge into it, move with it, and join the dance.', 0, 0, 'alan-watts'),
+       ('Don''t let anyone define you. You define yourself.', 0, 0, 'billie-jean-king'),
+       ('Champions keep playing until they get it right.', 0, 0, 'billie-jean-king'),
+       ('I think self-awareness is probably the most important thing towards being a champion.', 0, 0, 'billie-jean-king'),
+       ('Words can only have a positive effect on others if and when they are ready to listen.', 0, 0, 'christopher-reeve'),
+       ('Once you choose hope, anything''s possible.', 0, 0, 'christopher-reeve'),
+       ('A Hero is an ordinary individual who finds the strength to persevere and endure in spite of overwhelming obstacles.', 0, 0, 'christopher-reeve'),
+       ('No one is free, even the birds are chained to the sky.', 0, 0, 'bob-dylan'),
+       ('Our deeds determine us, as much as we determine our deeds.', 0, 0, 'george-eliot'),
+       ('Keep true. Never be ashamed of doing right. Decide what you think is right and stick to it.', 0, 0, 'george-eliot'),
+       ('Every limit is a beginning as well as an ending.', 0, 0, 'george-eliot'),
+       ('One must be poor to know the luxury of giving.', 0, 0, 'george-eliot'),
+       ('It will never rain roses: when we want to have more roses, we must plant more roses.', 0, 0, 'george-eliot'),
+       ('Curiosity is the most powerful thing you own.', 0, 0, 'james-cameron'),
+       ('Failure is an option, fear is not.', 0, 0, 'james-cameron'),
+       ('Hope is not a strategy. Luck is not a factor. Fear is not an option.', 0, 0, 'james-cameron'),
+       ('If you set your goals ridiculously high and its a failure, you will fail above everyone elses success.', 0, 0, 'james-cameron'),
+       ('Curiosity is the most powerful thing you own. Imagination is a force that can actually manifest a reality.', 0, 0, 'james-cameron'),
+       ('Quiet people have the loudest minds.', 0, 0, 'stephen-hawking'),
+       ('However difficult life may seem, there is always something you can do and succeed at.', 0, 0, 'stephen-hawking'),
+       ('If you are lucky enough to find love, remember it is there and don''t throw it away.', 0, 0, 'stephen-hawking'),
+       ('Remember to look up at the stars and not down at your feet.', 0, 0, 'stephen-hawking'),
+       ('Life would be tragic if it weren''t funny.', 0, 0, 'stephen-hawking'),
+       ('After you''ve listened to it, you''ll feel like you know us a little bit better.', 0, 0, 'june-carter-cash'),
+       ('I''ve flown out of character so many times. In that sense I''ve been lucky, because I''ve been given the liberty to do just about anything I''ve wanted to do in my lifetime.', 0, 0, 'june-carter-cash'),
+       ('Opportunity comes when you continually push forward.', 0, 0, 'sonia-ricotti'),
+       ('Surrender to what is. Let go of what was. Have faith in what will be.', 0, 0, 'sonia-ricotti'),
+       ('When you say yes to change, you are choosing to navigate that path peacefully and happily and see where it takes you.', 0, 0, 'sonia-ricotti'),
+       ('Why live an ordinary life, when you can live an extraordinary one.', 0, 0, 'tony-robbins'),
+       ('Everybody''s life is either rewarding or an example.', 0, 0, 'tony-robbins'),
+       ('Intelligence is the ability to adapt to change.', 0, 0, 'stephen-hawking'),
+       ('Things do not have meaning. We assign meaning to everything.', 0, 0, 'tony-robbins'),
+       ('Most people dabble their way through life, never deciding to master anything in particular.', 0, 0, 'tony-robbins'),
+       ('Lack of emotion causes lack of progress and lack of motivation.', 0, 0, 'tony-robbins'),
+       ('The only place where success comes before work is in the dictionary.', 0, 0, 'vidal-sassoon'),
+       ('Longevity is a fleeting moment that lasts forever.', 0, 0, 'vidal-sassoon'),
+       ('Whatever happens always happens on time.', 0, 0, 'zen-proverb'),
+       ('Always look on the bright side of things. If you can''t comprehend this, polish that which has become dull until it begins to shine.', 0, 0, 'zen-proverb'),
+       ('Your home is where your thoughts find peace.', 0, 0, 'zen-proverb'),
+       ('A mountain never yields to the wind no matter how strong it is.', 0, 0, 'zen-proverb'),
+       ('Live calmly. The time will come when the flowers bloom by themselves.', 0, 0, 'zen-proverb'),
+       ('No one returns from a long journey the same person they were before.', 0, 0, 'zen-proverb'),
+       ('A strong man overcomes an obstacle, a wise man goes the whole way.', 0, 0, 'zen-proverb'),
+       ('Don''t be afraid to go slowly. Be afraid of stopping.', 0, 0, 'zen-proverb'),
+       ('Obstacles don''t block the path, they are the path.', 0, 0, 'zen-proverb'),
+       ('Even if you stumble and fall down, it doesn''t mean you''ve chosen the wrong path.', 0, 0, 'zen-proverb'),
+       ('There are two kinds of perfect people: those who are dead, and those who have not been born yet.', 0, 0, 'chinese-proverb'),
+       ('Distant water does not put out a nearby fire.', 0, 0, 'chinese-proverb'),
+       ('Blessed is he who expects nothing, for he shall never be disappointed.', 0, 0, 'alexander-pope'),
+       ('If you want to know what God thinks about money just look at the people He gives it to.', 0, 0, 'alexander-pope'),
+       ('A man is but a product of his thoughts. What he thinks he becomes.', 0, 0, 'gandhi'),
+       ('Truth is not something outside to be discovered, it is something inside to be realized.', 0, 0, 'osho'),
+       ('Love is not about possession. Love is about appreciation.', 0, 0, 'osho'),
+       ('Don''t seek, don''t search, don''t ask, don''t knock, don''t demand – relax.', 0, 0, 'osho'),
+       ('Change yourself - you are in control.', 0, 0, 'gandhi'),
+       ('Happiness is when what you think, what you say, and what you do are in harmony.', 0, 0, 'gandhi'),
+       ('The future depends on what you do today.', 0, 0, 'gandhi'),
+       ('Happiness is when what you think, what you say, and what you do are in harmony.', 0, 0, 'gandhi'),
+       ('The best way to find yourself is to lose yourself in the service of others.', 0, 0, 'gandhi'),
+       ('Teachers open the door. You enter by yourself.', 0, 0, 'chinese-proverb'),
+       ('No matter how tall the mountain is, it cannot block the sun.', 0, 0, 'chinese-proverb'),
+       ('A wise man makes his own decisions, but an ignorant man mindlessly follows the crowd.', 0, 0, 'chinese-proverb'),
+       ('Failure will never overtake me if my determination to succeed is strong enough.', 0, 0, 'og-mandino'),
+       ('There''s a difference between fair game and playing games.', 0, 0, 'hillary-clinton'),
+       ('The first time I see a jogger smiling, I’ll consider it.', 0, 0, 'joan-rivers'),
+       ('Failure is the highway to success.', 0, 0, 'og-mandino'),
+       ('When you judge others, you do not define them, you define yourself.', 0, 0, 'earl-nightingale'),
+       ('Raise your words, not voice. It is rain that grows flowers, not thunder.', 0, 0, 'rumi'),
+       ('It’s obvious that women are smarter than men. Think about it – diamonds are a girl’s best friend; man’s best friend is a dog.', 0, 0, 'joan-rivers'),
+       ('Take care of all your memories. For you cannot relive them.', 0, 0, 'bob-dylan'),
+       ('Individual commitment to a group effort, that is what makes a team work.', 0, 0, 'vince-lombardi'),
+       ('Here it is--right now. Start thinking about it and you miss it.', 0, 0, 'huang-po'),
+       ('Your task is not to seek for love, but merely to seek and find all the barriers within yourself that you have built against it.', 0, 0, 'rumi'),
+       ('There is nothing so stable as change.', 0, 0, 'bob-dylan'),
+       ('Always be a first rate version of yourself and not a second rate version of someone else.', 0, 0, 'judy-garland'),
+       ('Why do you stay in prison when the door is so wide open?', 0, 0, 'rumi'),
+       ('Learning is a weightless treasure you can always carry easily.', 0, 0, 'chinese-proverb'),
+       ('I hate housework. You make the beds, you wash the dishes and six months later you have to start all over again.', 0, 0, 'joan-rivers'),
+       ('I''m a woman who wants to reach out and take 40 million people in her arms.', 0, 0, 'judy-garland'),
+       ('All men who have achieved great things have been great dreamers.', 0, 0, 'orison-swett-marden'),
+       ('Your world is a living expression of how you are using and have used your mind.', 0, 0, 'earl-nightingale'),
+       ('Never settle for the crumbs of life.', 0, 0, 'og-mandino'),
+       ('Listen. I wish I could tell you it gets better. But, it doesn’t get better. You get better.', 0, 0, 'joan-rivers'),
+       ('The foolish reject what they see, not what they think; the wise reject what they think, not what they see.', 0, 0, 'huang-po'),
+       ('If you can accept losing you can’t win. If you can walk you can run. No one is ever hurt. Hurt is in your mind.', 0, 0, 'vince-lombardi'),
+       ('Forty for you, sixty for me. And equal partners we will be.', 0, 0, 'joan-rivers'),
+       ('I try to bring the audience''s own drama - tears and laughter they know about - to them.', 0, 0, 'judy-garland'),
+       ('A crisis is an opportunity riding the dangerous wind.', 0, 0, 'chinese-proverb'),
+       ('Perpetual optimism is a force multiplier.', 0, 0, 'colin-powell'),
+       ('There are no secrets to success. It is the result of preparation, hard work, and learning from failure.', 0, 0, 'colin-powell'),
+       ('Football is like life – it requires perseverance, self-denial, hard work, sacrifice, dedication and respect for authority.', 0, 0, 'vince-lombardi'),
+       ('I''ve always taken ''The Wizard of Oz'' very seriously, you know. I believe in the idea of the rainbow. And I''ve spent my entire life trying to get over it.', 0, 0, 'judy-garland'),
+       ('You cannot swim for new horizons until you have courage to lose sight of the shore.', 0, 0, 'william-faulkner'),
+       ('We must be free not because we claim freedom, but because we practice it.', 0, 0, 'william-faulkner'),
+       ('Avoid having your ego so close to your position that when your position falls, your ego goes with it.', 0, 0, 'colin-powell'),
        ('Well-behaved women seldom make history.', 0, 0, 'laurel-thatcher-ulrich'),
+       ('Women are the largest untapped reservoir of talent in the world.', 0, 0, 'hillary-clinton'),
        ('You got a dream... You gotta protect it. People can''t do somethin'' themselves, they wanna tell you you can''t do it. If you want somethin'', go get it. Period.', 0, 0, 'will-smith'),
        ('You miss 100% of the shots you don''t take.', 0, 0, 'wayne-gretzky'),
        ('No one can make you feel inferior without your consent.', 0, 0, 'eleanor-roosevelt'),
@@ -443,7 +640,7 @@ VALUES ('My apple trees will never get across And eat the cones under his pines,
        ('Kindness in words creates confidence. Kindness in thinking creates profoundness. Kindness in giving creates love.', 0, 0, 'lao-tzu'),
        ('There''s not a liberal America and a conservative America - there''s the United States of America.', 0, 0, 'barack-obama'),
        ('Everyone wants to ride with you in the limo, but what you want is someone who will take the bus with you when the limo breaks down.', 0, 0, 'oprah-winfrey'),
-       ('How wonderful it is that nobody need wait a single moment before starting to improve the world.', 117000, 0.090, 'anne-frank'),
+       ('How wonderful it is that nobody need wait a single moment before starting to improve the world.', 0, 0, 'anne-frank'),
        ('I have decided to stick with love. Hate is too great a burden to bear.', 0, 0, 'martin-luther-king-jr'),
        ('Never get discouraged if you fail. Learn from it. Keep trying.', 0, 0, 'thomas-edison'),
        ('I am large, I contain multitudes.', 0, 0, 'walt-whitman'),
@@ -452,7 +649,8 @@ VALUES ('My apple trees will never get across And eat the cones under his pines,
        ('Write things down: your mother probably told you this. She’s right.', 0, 0, 'estée-lauder'),
        ('Don''t worry about a thing, every little thing is gonna be alright.', 0, 0, 'bob-marley'),
        ('Happiness, not in another place but this place...not for another hour, but this hour.', 0, 0, 'walt-whitman'),
-       ('Think of all the beauty still left around you and be happy.', 86000, 0.095, 'anne-frank'),
+       ('For it was not into my ear you whispered, but into my heart. It was not my lips you kissed, but my soul.', 0, 0, 'judy-garland'),
+       ('Think of all the beauty still left around you and be happy.', 0, 0, 'anne-frank'),
        ('You have to be burning with an idea, or a problem, or a wrong that you want to right. If you’re not passionate enough from the start, you’ll never stick it out.', 0, 0, 'steve-jobs'),
        ('Ardently do today what must be done. Who knows? Tomorrow, death comes.', 0, 0, 'buddha'),
        ('Everyone you meet is fighting a battle you know nothing about. Be kind. Always.', 0, 0, 'robin-williams'),
@@ -477,7 +675,7 @@ VALUES ('My apple trees will never get across And eat the cones under his pines,
        ('Count your age by friends, not years. Count your life by smiles, not tears.', 0, 0, 'john-lennon'),
        ('The important thing is not to stop questioning. Curiosity has its own reason for existence.', 0, 0, 'albert-einstein'),
        ('If a man hasn''t discovered something he will die for, he isn''t fit to live.', 0, 0, 'martin-luther-king-jr'),
-       ('I dont think of all the misery, but of the beauty that still remains.', 157000, 0.057, 'anne-frank'),
+       ('I dont think of all the misery, but of the beauty that still remains.', 0, 0, 'anne-frank'),
        ('Love your Enemies, for they tell you your Faults.', 0, 0, 'benjamin-franklin'),
        ('Pride costs us more than hunger, thirst, and cold.', 0, 0, 'thomas-jefferson'),
        ('Courage is found in unlikely places.', 0, 0, 'jrr-tolkien'),
@@ -493,6 +691,6 @@ VALUES ('My apple trees will never get across And eat the cones under his pines,
        ('It has been my observation that most people get ahead during the time that others waste.', 0, 0, 'henry-ford'),
        ('It''s weird not to be weird.', 0, 0, 'john-lennon'),
        ('Never make someone a priority when all you are to them is an option.', 0, 0, 'maya-angelou'),
-       ('The only thing we have to fear is fear itself.', 86000, 0, 'franklin-d-roosevelt'),
-       ('We all live with the objective of being happy; our lives are all different and yet the same.', 66000, NULL, 'anne-frank');
+       ('The only thing we have to fear is fear itself.', 0, 0, 'franklin-d-roosevelt'),
+       ('We all live with the objective of being happy; our lives are all different and yet the same.', 0, 0, 'anne-frank');
 
