@@ -1,6 +1,6 @@
 "use strict";
 
-/** Express app for quotable3. */
+/** Express app for quotable. */
 
 const express = require("express");
 const cors = require("cors");

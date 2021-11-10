@@ -1,5 +1,5 @@
 "use strict";
-/** Database setup for quotable3. */
+/** Database setup for quotable. */
 const { Client } = require("pg");
 const { getDatabaseUri } = require("./config");
 

@@ -114,6 +114,18 @@ DELETE FROM authors WHERE handle LIKE '%alan-watts%';
 DELETE FROM authors WHERE handle LIKE '%babe-ruth%';
 DELETE FROM authors WHERE handle LIKE '%herodotus%';
 DELETE FROM authors WHERE handle LIKE '%leo-tolstoy%';
+DELETE FROM authors WHERE handle LIKE '%alfred-adler%';
+DELETE FROM authors WHERE handle LIKE '%ayn-rand%';
+DELETE FROM authors WHERE handle LIKE '%benjamin-mays%';
+DELETE FROM authors WHERE handle LIKE '%charlie-chaplin%';
+DELETE FROM authors WHERE handle LIKE '%lin-yutang%';
+DELETE FROM authors WHERE handle LIKE '%joshua-waitzkin%';
+DELETE FROM authors WHERE handle LIKE '%harriet-tubman%';
+DELETE FROM authors WHERE handle LIKE '%madam-cj-walker%';
+DELETE FROM authors WHERE handle LIKE '%tom-hanks%';
+DELETE FROM authors WHERE handle LIKE '%seneca%';
+
+
 DELETE FROM authors WHERE handle LIKE '%martina-navratilova%';
 
 INSERT INTO authors (handle,
@@ -121,7 +133,7 @@ INSERT INTO authors (handle,
                        num_employees,
                        description,
                        logo_url)
-VALUES  ('franklin-d-roosevelt', 'Franklin D. Roosevelt', 1, '32nd U.S. President', './images/franklin-d-roosevelt.jpeg'),
+VALUES  ('franklin-d-roosevelt', 'Franklin D. Roosevelt', 1, '32nd U.S. President', NULL),
         ('bob-marley', 'Bob Marley', 2, 'Jamaican singer-songwriter', NULL),
         ('anne-frank', 'Anne Frank', 3, 'German-Dutch diarist of Jewish heritage.', NULL),
         ('robert-frost', 'Robert Frost', 4, 'An American poet.', NULL),
@@ -221,9 +233,19 @@ VALUES  ('franklin-d-roosevelt', 'Franklin D. Roosevelt', 1, '32nd U.S. Presiden
         ('babe-ruth', 'Babe Ruth', 98, 'George Herman "Babe" Ruth was an American professional baseball player whose career in Major League Baseball spanned 22 seasons, from 1914 through 1935.', NULL),
         ('herodotus', 'Herodotus', 99, 'Herodotus was an ancient Greek writer, geographer, and historian born in the Greek city of Halicarnassus, part of the Persian Empire.', NULL),
         ('leo-tolstoy', 'Leo Tolstoy', 100, 'Count Lev Nikolayevich Tolstoy, usually referred to in English as Leo Tolstoy, was a Russian writer who is regarded as one of the greatest authors of all time.', NULL),
+        ('alfred-adler', 'Alfred Adler', 101, 'Alfred Adler was an Austrian medical doctor, psychotherapist, and founder of the school of individual psychology.', NULL),
+        ('ayn-rand', 'Ayn Rand', 102, 'Alice O''Connor, better known by her pen name Ayn Rand, was a Russian-American weiter and philosopher.', NULL),
+        ('benjamin-mays', 'Benjamin Mays', 103, 'Benjamin Elijah Mays was an American Baptist minister and American rights leader who is credited with laying the intellectual foundations of the American civil rights movement.', NULL),
+        ('charlie-chaplin', 'Charlie Chaplin', 104, 'Sir Charles Spencer Chaplin Jr. KBE was an English comic actor, filmmaker, and composer who rose to fame in the era of silent film.', NULL),
+        ('lin-yutang', 'Lin Yutang', 105, 'Lin Yutang was a Chinese inventor, linguist, novelist, philosopher, and translator.', NULL),
+        ('joshua-waitzkin', 'Joshua Waitzkin', 106, 'Joshua Waitzkin is an American chess player, martial arts competitor, and author.', NULL),
+        ('harriet-tubman', 'Harriet Tubman', 107, 'Harriet Tubman was an American abolitionist and political activist.', NULL),
+        ('madam-cj-walker', 'Madam C. J. Walker', 108, 'Madam C.J. Walker was an African American entrepreneur, philanthropist, and political and social activist.', NULL),
+        ('tom-hanks', 'Tom Hanks', 109, 'Thomas Jeffrey Hanks is an American actor and filmmaker.', NULL),
+        ('seneca', 'Seneca', 110, 'Lucius Annaeus Seneca the Younger, usually known as Seneca, was a Roman Stoic philosopher, statesman, dramatist, and in one work, satirist, from the post-Augustan age of Latin literature.', NULL),
 
         
-        ('martina-navratilova', 'Martina Navratilova', 101, 'Martina Navratilova is a Czech-American former professional tennis player and coach. Widely considered among the greatest female tennis players of all time.', NULL);
+        ('martina-navratilova', 'Martina Navratilova', 111, 'Martina Navratilova is a Czech-American former professional tennis player and coach. Widely considered among the greatest female tennis players of all time.', NULL);
         
 DELETE FROM quotes WHERE author_handle LIKE '%franklin-d-roosevelt%';
 DELETE FROM quotes WHERE author_handle LIKE '%anne-frank%';
@@ -325,12 +347,69 @@ DELETE FROM quotes WHERE author_handle LIKE '%alan-watts%';
 DELETE FROM quotes WHERE author_handle LIKE '%babe-ruth%';
 DELETE FROM quotes WHERE author_handle LIKE '%herodotus%';
 DELETE FROM quotes WHERE author_handle LIKE '%leo-tolstoy%';
+DELETE FROM quotes WHERE author_handle LIKE '%alfred-adler%';
+DELETE FROM quotes WHERE author_handle LIKE '%ayn-rand%';
+DELETE FROM quotes WHERE author_handle LIKE '%benjamin-mays%';
+DELETE FROM quotes WHERE author_handle LIKE '%charlie-chaplin%';
+DELETE FROM quotes WHERE author_handle LIKE '%lin-yutang%';
+DELETE FROM quotes WHERE author_handle LIKE '%joshua-waitzkin%';
+DELETE FROM quotes WHERE author_handle LIKE '%harriet-tubman%';
+DELETE FROM quotes WHERE author_handle LIKE '%madam-cj-walker%';
+DELETE FROM quotes WHERE author_handle LIKE '%tom-hanks%';
+DELETE FROM quotes WHERE author_handle LIKE '%seneca%';
+
+
 DELETE FROM quotes WHERE author_handle LIKE '%martina-navratilova%';
 
 
 INSERT INTO quotes (title, salary, equity, author_handle)
 VALUES ('My apple trees will never get across And eat the cones under his pines, I tell him. He only says, “Good fences make good neighbors.”', 0, 0, 'robert-frost'),
        ('What do we live for, if it is not to make life less difficult for each other?', 0, 0, 'george-eliot'),
+       ('Throw me to the wolves and I will return leading the pack.', 0, 0, 'seneca'),
+       ('Luck is what happens when preparation meets opportunity.', 0, 0, 'seneca'),
+       ('He suffers more than necessary, who suffers before it is necessary.', 0, 0, 'seneca'),
+       ('Difficulties strengthen the mind, as labor does the body.', 0, 0, 'seneca'),
+       ('Associate with people who are likely to improve you.', 0, 0, 'seneca'),
+       ('We suffer more often in imagination than in reality.', 0, 0, 'seneca'),
+       ('May you live as long as you want and not want as long as you live.', 0, 0, 'tom-hanks'),
+       ('If it wasn''t hard, everyone would do it. It''s the hard that makes it great.', 0, 0, 'tom-hanks'),
+       ('If you''re funny, if there''s something that makes you laugh, then every day''s going to be okay.', 0, 0, 'tom-hanks'),
+       ('For some people, I will be Forrest Gump for the rest of my life. But that''s OK; that''s a good thing.', 0, 0, 'tom-hanks'),
+       ('Don''t sit down and wait for the opportunities to come. Get up and make them.', 0, 0, 'madam-cj-walker'),
+       ('If I have accomplished anything in life, it is because I have been willing to work hard.', 0, 0, 'madam-cj-walker'),
+       ('Perseverance is my motto!', 0, 0, 'madam-cj-walker'),
+       ('I got my start by giving myself a start.', 0, 0, 'madam-cj-walker'),
+       ('I have heard their groans and sighs, and seen their tears, and I would give every drop of blood in my veins to free them.', 0, 0, 'harriet-tubman'),
+       ('I was the conductor of the Underground Railroad for eight years, and I can say what most conductors can’t say — I never ran my train off the track and I never lost a passenger.', 0, 0, 'harriet-tubman'),
+       ('Growth comes at the point of resistance.', 0, 0, 'joshua-waitzkin'),
+       ('When uncomfortable, my instinct is not to avoid the discomfort but to become at peace with it.', 0, 0, 'joshua-waitzkin'),
+       ('Still your waters.', 0, 0, 'joshua-waitzkin'),
+       ('We learn by pushing ourselves and finding what really lies at the outer reaches of our abilities.', 0, 0, 'joshua-waitzkin'),
+       ('The fact of the matter is that there will be nothing learned from any challenge in which we don''t try our hardest.', 0, 0, 'joshua-waitzkin'),
+       ('Peace of mind is that mental condition in which you have accepted the worst.', 0, 0, 'lin-yutang'),
+       ('The busy man is never wise and the wise man is never busy.', 0, 0, 'lin-yutang'),
+       ('The wisdom of life consists in the elimination of the nonessentials.', 0, 0, 'lin-yutang'),
+       ('Sometimes it is more important to discover what one cannot do, than what one can do.', 0, 0, 'lin-yutang'),
+       ('A day without laughter is a day wasted.', 0, 0, 'charlie-chaplin'),
+       ('Simplicity is a difficult thing to achieve.', 0, 0, 'charlie-chaplin'),
+       ('You''ll never find rainbows if you''re looking down.', 0, 0, 'charlie-chaplin'),
+       ('If you''re really truthful with yourself, it''s a wonderful guidance.', 0, 0, 'charlie-chaplin'),
+       ('We think too much and feel too little.', 0, 0, 'charlie-chaplin'),
+       ('Imagination means nothing without doing.', 0, 0, 'charlie-chaplin'),
+       ('Life can be wonderful if you''re not afraid of it.', 0, 0, 'charlie-chaplin'),
+       ('The tragedy of life doesn’t lie in not reaching your goal. The tragedy lies in having no goals to reach.', 0, 0, 'benjamin-mays'),
+       ('You have the ability, now apply yourself.', 0, 0, 'benjamin-mays'),
+       ('Whatever you do,strive to do it so well that no man living and no man dead and no man yet to be born could do it any better.', 0, 0, 'benjamin-mays'),
+       ('Freedom (n.): To ask nothing. To exoect nothing. To depend on nothing.', 0, 0, 'ayn-rand'),
+       ('A creative man is motivated by the desire to achieve, not by the desire to beat others.', 0, 0, 'ayn-rand'),
+       ('The man who does not value himself, cannot value anything or anyone.', 0, 0, 'ayn-rand'),
+       ('You can avoid reality, but you cannot avoid the consequences of avoiding reality.', 0, 0, 'ayn-rand'),
+       ('Learn to value yourself, which means: fight for your happiness.', 0, 0, 'ayn-rand'),
+       ('Follow your heart but take your brain with you.', 0, 0, 'alfred-adler'),
+       ('It is easier to fight for one''s principles than to live up to them.', 0, 0, 'alfred-adler'),
+       ('Trust only movement. Life happens at the level of events, not of words. Trust movement.', 0, 0, 'alfred-adler'),
+       ('The only normal people are the ones you don''t know very well.', 0, 0, 'alfred-adler'),
+       ('A lie would have no sense unless the truth were felt as dangerous.', 0, 0, 'alfred-adler'),
        ('Everyone thinks of changing the world, but no one thinks of changing himself.', 0, 0, 'leo-tolstoy'),
        ('Muddy water is best cleared by leaving it alone.', 0, 0, 'alan-watts'),
        ('Circumstances rule men; men do not rule circumstances.', 0, 0, 'herodotus'),
@@ -453,6 +532,7 @@ VALUES ('My apple trees will never get across And eat the cones under his pines,
        ('Some people feel the rain. Others just get wet.', 0, 0, 'bob-marley'),
        ('The best love is the kind that awakens the soul and makes us reach for more, that plants a fire in our hearts and brings peace to our minds. And that''s what you''ve given me. That''s what I''d hoped to give you forever.', 0, 0, 'nicholas-sparks'),
        ('In the unlikely story that is America, there has never been anything false about hope.', 0, 0, 'barack-obama'),
+       ('If you run you stand a chance of losing, but if you don''t run you''ve already lost.', 0, 0, 'barack-obama'),
        ('A person’s a person, no matter how small.', 0, 0, 'dr-seuss'),
        ('Hey. Don''t ever let somebody tell you... You can''t do something. Not even me. All right?', 0, 0, 'will-smith'),
        ('Be clearly aware of the stars and infinity on high. Then life seems almost enchanted after all.', 0, 0, 'vincent-van-gogh'),
@@ -469,6 +549,9 @@ VALUES ('My apple trees will never get across And eat the cones under his pines,
        ('You can often change your circumstances by changing your attitude.”.', 0, 0, 'eleanor-roosevelt'),
        ('When someone shows you who they are believe them the first time.', 0, 0, 'maya-angelou'),
        ('You change the world by being yourself.', 0, 0, 'yoko-ono'),
+       ('Every drop in the ocean counts.', 0, 0, 'yoko-ono'),
+       ('It''s better to dance than to march through life.', 0, 0, 'yoko-ono'),
+       ('Each time we don''t say what we wanna say, we''re dying.', 0, 0, 'yoko-ono'),
        ('You can start changing our world for the better daily, no matter how small the action.', 0, 0, 'nelson-mandela'),
        ('Now I think it’s one of the most useless questions an adult can ask a child—What do you want to be when you grow up? As if growing up is finite. As if at some point you become something and that’s the end.', 0, 0, 'michelle-obama'),
        ('Never interrupt someone doing something you said couldn’t be done.', 0, 0, 'amelia-earhart'),
@@ -542,7 +625,7 @@ VALUES ('My apple trees will never get across And eat the cones under his pines,
        ('Better to die fighting for freedom then be a prisoner all the days of your life.', 0, 0, 'bob-marley'),
        ('There are three things in this world that you need: Respect for all kinds of life, a nice bowel movement on a regular basis, and a navy blazer.', 0, 0, 'robin-williams'),
        ('Turn your face to the sun, as flowers know how to do.', 0, 0, 'ming-dao-deng'),
-       ('The best way out is always through.', 138000, 0, 'robert-frost'),
+       ('The best way out is always through.', 0, 0, 'robert-frost'),
        ('My mother was the most beautiful woman I ever saw. All I am I owe to my mother. I attribute my success in life to the moral, intellectual and physical education I received from her.', 0, 0, 'george-washington'),
        ('Have the courage to follow your heart and intuition. They somehow already know what you truly want to become. Everything else is secondary.', 0, 0, 'steve-jobs'),
        ('If you get up in the morning and think the future is going to be better, it is a bright day. Otherwise, it''s not..', 0, 0, 'elon-musk'),
@@ -556,12 +639,12 @@ VALUES ('My apple trees will never get across And eat the cones under his pines,
        ('Keep away from people who try to belittle your ambitions. Small people always do that, but the really great make you feel that you, too, can become great.', 0, 0, 'mark-twain'),
        ('There are a terrible lot of lies going about the world, and the worst of it is that half of them are true.', 0, 0, 'winston-churchill'),
        ('Beauty is an attitude, there’s no secret.', 0, 0, 'estée-lauder'),
-       ('In three words I can sum up everything I have learned about life: it goes on.', NULL, 0.085, 'robert-frost'),
+       ('In three words I can sum up everything I have learned about life: it goes on.', 0, 0, 'robert-frost'),
        ('Make-up can only make you look pretty on the outside but it doesn''t help if you''re ugly on the inside. Unless you eat the make-up.', 0, 0, 'audrey-hepburn'),
        ('I do not ask the wounded person how he feels, I myself become the wounded person.', 0, 0, 'walt-whitman'),
        ('Life doesn''t get easier or more forgiving, we get stronger and more resilient.', 0, 0, 'steve-maraboli'),
-       ('I keep my ideals, because in spite of everything I still believe that people are really good at heart.', 89000, 0.043, 'anne-frank'),
-       ('No one has ever become poor by giving.', 63000, 0.062, 'anne-frank'),
+       ('I keep my ideals, because in spite of everything I still believe that people are really good at heart.', 0, 0, 'anne-frank'),
+       ('No one has ever become poor by giving.', 0, 0, 'anne-frank'),
        ('I do not like green eggs and ham. I do not like them, Sam-I-Am.', 0, 0, 'dr-seuss'),
        ('Do I contradict myself? Very well then I contradict myself, (I am large, I contain multitudes.)', 0, 0, 'walt-whitman'),
        ('Be confident, not certain.', 0, 0, 'eleanor-roosevelt'),
@@ -586,7 +669,7 @@ VALUES ('My apple trees will never get across And eat the cones under his pines,
        ('Whenever I hear anyone arguing for slavery, I feel a strong impulse to see it tried on him personally.', 0, 0, 'abraham-lincoln'),
        ('Give credit where credit is due: simply said, if you want loyalty and best effort, you must be thoughtful.', 0, 0, 'estée-lauder'),
        ('Opportunity is missed by most people because it is dressed in overalls and looks like work.', 0, 0, 'thomas-edison'),
-       ('Happiness lies in the joy of achievement and the thrill of creative effort.', 122000, 0.047, 'franklin-d-roosevelt'),
+       ('Happiness lies in the joy of achievement and the thrill of creative effort.', 0, 0, 'franklin-d-roosevelt'),
        ('When angry, count ten, before you speak; if very angry, a hundred.', 0, 0, 'thomas-jefferson'),
        ('Giving is the secret of a healthy life. Not necessarily money, but whatever a person has of encouragement, sympathy and understanding.', 0, 0, 'john-d-rockefeller'),
        ('Fashion changes, but style endures.', 0, 0, 'coco-chanel'),
@@ -601,7 +684,7 @@ VALUES ('My apple trees will never get across And eat the cones under his pines,
        ('It took me a long time to figure out how to act, and how to conduct myself in the business so I could get what I felt I needed to support my potential and give them what they wanted.', 0, 0, 'harrison-ford'),
        ('Out of your vulnerabilities will come your strength.', 0, 0, 'sigmund-freud'),
        ('There is still a lot to learn and there is always great stuff out there. Even mistakes can be wonderful.', 0, 0, 'robin-williams'),
-       ('I have been one acquainted with the night. I have walked out in rain - and back in rain. I have outwalked the furthest city light....', 172000, 0.091, 'robert-frost'),
+       ('I have been one acquainted with the night. I have walked out in rain - and back in rain. I have outwalked the furthest city light....', 0, 0, 'robert-frost'),
        ('When one door is closed, don''t you know that many more are open.', 0, 0, 'bob-marley'),
        ('We should all start to live before we get old. Fear is stupid. So are regrets.', 0, 0, 'marilyn-monroe'),
        ('I think it is possible for ordinary people to choose to be extraordinary.', 0, 0, 'elon-musk'),
@@ -623,13 +706,13 @@ VALUES ('My apple trees will never get across And eat the cones under his pines,
        ('Nothing is troublesome that we do willingly.', 0, 0, 'thomas-jefferson'),
        ('When you undervalue what you do, the world will undervalue who you are.', 0, 0, 'oprah-winfrey'),
        ('It''s OK to have your eggs in one basket as long as you control what happens to that basket.', 0, 0, 'elon-musk'),
-       ('Whoever is happy will make others happy too.', 167000, 0.020, 'anne-frank'),
+       ('Whoever is happy will make others happy too.', 0, 0, 'anne-frank'),
        ('Just when you think it can''t get any worse, it can. And just when you think it can''t get any better, it can.', 0, 0, 'nicholas-sparks'),
        ('There are three classes of people: those who see, those who see when they are shown, those who do not see.', 0, 0, 'leonardo-da-vinci'),
        ('Have enough courage to trust love one more time and always one more time.', 0, 0, 'maya-angelou'),
        ('Resist much, obey little.', 0, 0, 'walt-whitman'),
        ('Decide… whether or not the goal is worth the risks involved. If it is, stop worrying.', 0, 0, 'amelia-earhart'),
-       ('Whose woods these are I think I know. His house is in the village though; He will not see me stopping here To watch his woods fill up with snow.', NULL, 0.097, 'robert-frost'),
+       ('Whose woods these are I think I know. His house is in the village though; He will not see me stopping here To watch his woods fill up with snow.', 0, 0, 'robert-frost'),
        ('I would rather die of passion than of boredom.', 0, 0, 'vincent-van-gogh'),
        ('Wheresoever you go, go with all your heart.', 0, 0, 'confucius'),
        ('It''s a remarkable exercise to sit and look at your own work over the years.', 0, 0, 'vera-wang'),
@@ -681,12 +764,12 @@ VALUES ('My apple trees will never get across And eat the cones under his pines,
        ('Courage is found in unlikely places.', 0, 0, 'jrr-tolkien'),
        ('A brand for a company is like a reputation for a person. You earn reputation by trying to do hard things well.', 0, 0, 'jeff-bezos'),
        ('Our greatest natural resource is the minds of our children.', 0, 0, 'walt-disney'),
-       ('Men are not prisoners of fate, but only prisoners of their own minds.', 157000, 0.083, 'franklin-d-roosevelt'),
+       ('Men are not prisoners of fate, but only prisoners of their own minds.', 0, 0, 'franklin-d-roosevelt'),
        ('The future belongs to those who believe in the beauty of their dreams.', 0, 0, 'eleanor-roosevelt'),
-       ('Parents can only give good advice or put them on the right paths, but the final forming of a persons character lies in their own hands.', 198000, 0, 'anne-frank'),
+       ('Parents can only give good advice or put them on the right paths, but the final forming of a persons character lies in their own hands.', 0, 0, 'anne-frank'),
        ('I don''t care what you think of me. I don''t think of you at all.', 0, 0, 'coco-chanel'),
        ('Always bear in mind that your own resolution to succeed is more important than any one thing.', 0, 0, 'abraham-lincoln'),
-       ('Laziness may appear attractive, but work gives satisfaction.', 172000, 0.061, 'anne-frank'),
+       ('Laziness may appear attractive, but work gives satisfaction.', 0, 0, 'anne-frank'),
        ('Just because something doesn''t do what you planned it to do doesn''t mean it''s useless.', 0, 0, 'thomas-edison'),
        ('It has been my observation that most people get ahead during the time that others waste.', 0, 0, 'henry-ford'),
        ('It''s weird not to be weird.', 0, 0, 'john-lennon'),
