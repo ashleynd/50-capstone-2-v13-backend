@@ -150,7 +150,6 @@ router.get("/:username/likedquotes", ensureCorrectUserOrAdmin, async function (r
     const username = req.params.username;
     const u = await User.getLikes(username);
     const userLikes = u.rows;
-    // console.log(likes)
     return res.json({ userLikes });
     // return res.send("IT WORKS");
 
