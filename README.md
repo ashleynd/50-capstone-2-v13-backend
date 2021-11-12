@@ -1,9 +1,8 @@
 ## CAPSTONE II DOCUMENTATION AND SUBMISSION 
 (11/11/2021)
 
-### Quotable
-Capstone title: Quotable
-Found here: https://lovely-thumb.surge.sh/
+### Capstone title: Quotable
+### Found here: https://lovely-thumb.surge.sh/
 
 ### What Quotable Does
 My final capstone is meant to show quotes from famous authors, poets, celebrities, and fellow users of the site.
