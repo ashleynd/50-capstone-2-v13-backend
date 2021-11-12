@@ -1,4 +1,44 @@
+## CAPSTONE II DOCUMENTATION AND SUBMISSION 
+(11/11/2021)
+
+### Quotable
+Capstone title: Quotable
+Found here: https://lovely-thumb.surge.sh/
+
+### What Quotable Does
+My final capstone is meant to show quotes from famous authors, poets, celebrities, and fellow users of the site.
+
+### Features
+When a user is logged out or hasn't created an account, they can view a collection of quotes pulled from the API on the landing page, and view a Quote of the Day.
+When a user is logged in, they can search for certain quotes and certain authors. They can add quotes as "favorites", which will show as a list in their Profile tab.
+Users can update their user info as well in the Profile tab. 
+Users can even post their own quotes in the Community page.
+There is also an About tab, including more links regarding the developer(myself). In case viewers wanted to see my LinkedIn, the APIs, and more info on Springboard.
+
+### Tests
+Tests for the components are in both the frontend and the backend repositories. 
+They can each be run by command "npm test" in the terminal.
+
+### Standard User Flow
+The first thing you see on the landing page is 50 quotes pulled from zenquotes.io. You can only view them if you are not logged in. There is also a Quote of the Day tab and an About tab. Sign in and Login buttons are near the top. 
+When you login, you see more tabs in the Navbar. You can view authors, and quotes in two different tabs. For Authors, you can click on one and it shows which quotes are from that author. Each quote card has a "Favorite" button. When you "favorite" a quote, it appears in your Profile tab. You can also update your user info in that tab as well.  In the Community Quotes tab, you are able to view quotes posted by other users, and even post your own quotes.
+The logout button is to the right. And when you logout, it brings you back to the landing page where you see the 50 quotes.
+
+### Standard User Flow
+I used [Zen Quotes](https://zenquotes.io/) for the main quote list on the Home page. Then I used https://theysaidso.com/ for the Quote of the Day.
+I am technically calling from my own API for the authors and quotes that are searchable. All the info is populated through a seed file. But most of the data for the seed file is taken from Zen Quotes.
+
+### Tech Stack
+Quotable is built with PostgreSQL, Express.js, React, Node.js and deployed with Heroku.
+
+### Final Thoughts
+This was indeed more difficult and time-consuming than the first capstone.
+But this one, I'm glad I was able to implement the stretch goal: Favoriting. I had that as a stretch goal in my previous capstone and wasn't able to implement it. Here, I was able to. 🥰
+
+__________________________________________________________
+
 ## CAPSTONE II PROJECT PROPOSAL
+(10/07/2021)
 
 #### API Links
 They Said So Quotes API:
