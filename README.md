@@ -2,7 +2,7 @@
 (11/11/2021)
 
 ### Capstone title: Quotable
-### Found here: https://ludicrous-trick.surge.sh/
+### Found here: https://tan-oranges.surge.sh/
 
 ### What Quotable Does
 My final capstone is meant to show quotes from famous authors, poets, celebrities, and fellow users of the site.
