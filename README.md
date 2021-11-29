@@ -69,6 +69,8 @@ Each tab will allow the user to view different things like famous quotes, or use
 ### Potential API issues
 The APIs I found have a searching capability, that will allow for a user to search for quotes by a certain author. I have not been able to successfully use that when testing my API in Insomnia/Postman. It's like the method doesn't work the way they advertise it to do so.
 
+UPDATE: I keep needing to change the API for the main landing page. Some APIs just stop working after awhile, so I need to keep an eye on it making sure the APIs still work.
+
 ### Stretch Goals
 It would be great, with time permitting, to have a "like" capability for all the quotes. Since it is not the same as "favorting" an item like I attempted in my last capstone, this will be a new (and challenging) learning opportunity.
 
