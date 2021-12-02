@@ -71,6 +71,8 @@ The APIs I found have a searching capability, that will allow for a user to sear
 
 UPDATE: I keep needing to change the API for the main landing page. Some APIs just stop working after awhile, so I need to keep an eye on it making sure the APIs still work.
 
+MORE UPDATES: The APIs I try to use for the main page, have all stopped working after. Have to use my own API data instead.
+
 ### Stretch Goals
 It would be great, with time permitting, to have a "like" capability for all the quotes. Since it is not the same as "favorting" an item like I attempted in my last capstone, this will be a new (and challenging) learning opportunity.
 
