@@ -24,8 +24,8 @@ When you login, you see more tabs in the Navbar. You can view authors, and quote
 The logout button is to the right. And when you logout, it brings you back to the landing page where you see the 50 quotes.
 
 ### Standard User Flow
-I used [Good Quotes API](https://goquotes.docs.apiary.io/#) for the main quote list on the Home page. Then I used [They Said So®](https://theysaidso.com/) for the Quote of the Day.
-I am technically calling from my own API for the authors and quotes that are searchable. All the info is populated through a seed file. But most of the data for the seed file is taken from Zen Quotes.
+I used [They Said So®](https://theysaidso.com/) for the Quote of the Day.
+I am technically calling from my own API for the authors and quotes that are searchable, and for the main page. All the info is populated through a seed file. But most of the data for the seed file is taken from Zen Quotes.
 
 ### Tech Stack
 Quotable is built with PostgreSQL, Express.js, React, Node.js and deployed with Heroku.
