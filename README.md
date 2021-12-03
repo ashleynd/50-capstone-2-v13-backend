@@ -1,3 +1,15 @@
+To run on your local machine, run these commands in Terminal:
+
+In folder 50-capstone-2-v13-backend-master :
+npm install
+nodemon server.js
+Control + c (to quit)
+
+In folder 50-capstone-2-v13-frontend-master :
+npm start
+Control + c (to quit)
+
+
 ## CAPSTONE II DOCUMENTATION AND SUBMISSION 
 (11/11/2021)
 
